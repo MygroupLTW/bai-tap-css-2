@@ -1,0 +1,112 @@
+
+body {
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color :white  ;
+  width : 100%;
+}
+
+/* Style the header */
+
+.headerimg {
+    width : 100%;
+    height : auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+.topnav {
+    overflow: hidden;
+    background-color: red;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border : 1;
+}
+.leftmenu { float: left;
+width: 10%;
+    color:black;
+    background-color: white  ;
+    overflow: hidden;
+    padding: 14px 16px;
+text-align: left ;
+border: black;
+}
+.columnleft{
+    float:left;
+    width : 25%;
+    color: black;
+    padding : 14px 16px;
+} 
+.columnright{float:left;
+    width : 25%;
+    color: black ;
+    padding : 14px 16px;
+}
+.columncenter{ float: left;
+color: black ;
+width :25%;
+padding : 14px 16px;
+}
+/* Change color on hover */
+.topnav a:hover {
+    background-color: lightblue;
+    color: black;}
+
+
+
+ .leftmenu a {
+    float: left;
+    display: block;
+    color: black;
+    text-align:left;
+    padding : 14px 16px;
+    text-decoration: none;
+}
+
+.leftmenu a:hover {
+    background-color: lightblue;
+    color: black;
+}
+.rightimg {
+    float: right;
+    width : 15%;
+   
+}
+.row {
+    padding : 14px  16px;
+  width : 100%;
+   
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;}
+.img {
+    width : 90%;
+    height:200px;
+    
+}
+.imgg { 
+    float : left;
+    
+}
+.footer{ width : 100%;
+    height : auto;
+   text-align: center;
+   color:black ;
+float: left;
+background-color: white;
+}
+.title a:hover{
+    width: 100%;
+    color: red;
+    background-color: white;
+}
